@@ -4,6 +4,7 @@ import "./App.css";
 
 import { Button } from "@material-ui/core";
 import { Header } from "./components/Header/Header";
+import { Main } from "./pages/Main/Main";
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       </header>
 
       <body>
-        <Button variant="contained" color="primary">
-          Click
-        </Button>
+        <Main />
+        {/*<Button variant="contained" color="primary">*/}
+        {/*  Click*/}
+        {/*</Button>*/}
       </body>
     </div>
   );
