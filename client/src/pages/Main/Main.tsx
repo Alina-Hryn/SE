@@ -3,7 +3,7 @@ import "./Main.css";
 
 export const Main = () => {
   return (
-    <div>
+    <div style={{ marginBottom: 30 }}>
       <iframe
         width="1113"
         height="626"
